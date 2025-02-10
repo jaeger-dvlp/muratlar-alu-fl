@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import Banner from '@/components/homepage/Banner';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-export default function Home(): JSX.Element {
+export default function Home(): React.ReactNode {
   return (
     <>
       <Meta title=".." description=".." />

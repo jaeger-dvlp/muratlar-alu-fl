@@ -9,7 +9,7 @@ type MetaProps = {
   favIconType?: 'png' | 'jpg' | 'jpeg' | 'ico'; // ? You can add more types..
 };
 
-function Meta({ title, description, favIconType }: MetaProps): JSX.Element {
+function Meta({ title, description, favIconType }: MetaProps): React.ReactNode {
   const router = useRouter();
 
   return (

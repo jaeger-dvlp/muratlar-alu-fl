@@ -28,6 +28,13 @@ export default [
       '**/next-sitemap.config.js',
       '**/next-i18next.config.js',
       '**/eslint.config.mjs',
+      '**/**.config.js',
+      '**/**.config.mjs',
+      '**/.next/**',
+      '**/public/**',
+      '**/node_modules/**',
+      '**/.git/**',
+      '**/.vercel/**',
     ],
   },
   ...fixupConfigRules(

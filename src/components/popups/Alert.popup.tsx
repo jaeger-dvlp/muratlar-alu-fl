@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '@/components/misc/Icon';
 import { usePopup } from '@/contexts/Popup.context';
 
-function AlertPopup(): JSX.Element | null {
+function AlertPopup(): React.ReactNode | null {
   const { alertPopup, deactivateAlertPopup } = usePopup();
 
   const containerClass = alertPopup?.isActive
@@ -39,7 +39,7 @@ function AlertPopup(): JSX.Element | null {
         </button>
       </div>
     </div>
-  )) as JSX.Element | null;
+  )) as React.ReactNode;
 }
 
 export default AlertPopup;

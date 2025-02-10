@@ -8,7 +8,7 @@ function Icon({
 }: {
   iconName: string;
   className?: string;
-}): JSX.Element {
+}): React.ReactNode {
   const getIcon = () => {
     switch (iconName) {
       case 'loading':

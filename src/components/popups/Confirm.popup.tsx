@@ -2,7 +2,7 @@ import React from 'react';
 import { usePopup } from '@/contexts/Popup.context';
 import Icon from '@/components/misc/Icon';
 
-function ConfirmPopup(): JSX.Element | null {
+function ConfirmPopup(): React.ReactNode | null {
   const [popupText, setPopupText] = React.useState('');
   const { confirmPopup, deactivateConfirmPopup } = usePopup();
 
@@ -51,7 +51,7 @@ function ConfirmPopup(): JSX.Element | null {
         </div>
       </div>
     </div>
-  )) as JSX.Element | null;
+  )) as React.ReactNode;
 }
 
 export default ConfirmPopup;

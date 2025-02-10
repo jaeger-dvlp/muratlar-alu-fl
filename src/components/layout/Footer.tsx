@@ -7,7 +7,7 @@ import { FooterSocialLink } from '@/types/boilerplate.types';
 
 import Logo from '@/public/assets/img/logo-wtext.png';
 
-function Footer(): JSX.Element {
+function Footer(): React.ReactNode {
   const { t } = useTranslation();
 
   const FooterSocialLinks: FooterSocialLink[] = [
@@ -31,7 +31,7 @@ function Footer(): JSX.Element {
     },
   ];
 
-  const getSocialLinks = (): JSX.Element[] => {
+  const getSocialLinks = (): React.ReactNode => {
     const elements = FooterSocialLinks.map(({ id, url, icon: Icon }) => (
       <li key={`fs-elm-${id}`} className="m-0 flex p-0">
         <a className="m-0 p-0" href={url} target="_blank" rel="noreferrer">
