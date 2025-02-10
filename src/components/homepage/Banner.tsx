@@ -16,6 +16,8 @@ function Banner() {
         loop
         muted
         autoPlay
+        playsInline
+        controls={false}
         className="h-full w-full object-cover object-center"
       >
         <source src="/assets/img/banner-video.mp4" type="video/mp4" />
