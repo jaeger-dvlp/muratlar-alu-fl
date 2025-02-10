@@ -1,5 +1,6 @@
 import React from 'react';
 import type { AppProps } from 'next/app';
+import { appWithTranslation } from 'next-i18next';
 import PopupWrapper from '@/contexts/Popup.context';
 import AlertPopup from '@/components/popups/Alert.popup';
 import ConfirmPopup from '@/components/popups/Confirm.popup';
@@ -23,7 +24,7 @@ import '@/styles/globals.css';
 //   fallback: ['ui-sans-serif'],
 // });
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       {/* 
@@ -55,3 +56,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+export default appWithTranslation(App);

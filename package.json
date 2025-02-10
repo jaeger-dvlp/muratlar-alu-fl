@@ -16,11 +16,14 @@
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
     "axios": "^1.3.4",
+    "i18next": "^24.2.2",
     "next": "^15.1.6",
+    "next-i18next": "^15.4.1",
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.52",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.0",
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
@@ -47,6 +50,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
+    "fs": "^0.0.1-security",
     "globals": "^15.14.0",
     "postcss": "^8.5.1",
     "prettier": "^3.4.2",

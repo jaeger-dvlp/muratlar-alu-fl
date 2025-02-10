@@ -25,12 +25,6 @@
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "incremental": true
   },
-  "exclude": ["./out/**/*", "./node_modules/**/*"],
-  "include": [
-    "next-env.d.ts",
-    "./**/*.ts",
-    "./**/*.tsx",
-    "./global.d.ts",
-    "./.eslintrc.json"
-  ]
+  "exclude": ["./out/**/*", "./node_modules/**/*", "eslint.config.mjs"],
+  "include": ["next-env.d.ts", "./**/*.ts", "./**/*.tsx", "./global.d.ts"]
 }

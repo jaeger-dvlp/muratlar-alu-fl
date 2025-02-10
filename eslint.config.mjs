@@ -26,6 +26,8 @@ export default [
       '**/postcss.config.js',
       '**/tailwind.config.js',
       '**/next-sitemap.config.js',
+      '**/next-i18next.config.js',
+      '**/eslint.config.mjs',
     ],
   },
   ...fixupConfigRules(
@@ -52,17 +54,14 @@ export default [
       globals: {
         ...globals.browser,
       },
-
       parser: tsParser,
       ecmaVersion: 'latest',
       sourceType: 'module',
-
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
         },
-
-        tsconfigRootDir: '.',
+        tsconfigRootDir: __dirname,
         project: ['tsconfig.json'],
         createDefaultProgram: true,
       },

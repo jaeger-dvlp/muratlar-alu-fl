@@ -1,7 +1,12 @@
 @import 'tailwindcss';
+@config "../../tailwind.config.js";
 
 * {
   scroll-behavior: smooth !important;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px;
 }
 
 .default-zoom-in {

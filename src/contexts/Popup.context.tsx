@@ -20,7 +20,7 @@ const PopupContext = React.createContext<IPopupContext>({
 export default function PopupWrapper({
   children,
 }: {
-  children: JSX.Element | JSX.Element[];
+  children?: React.ReactNode;
 }) {
   const [alertPopup, setAlertPopup] = React.useState<IAlertPopup>({
     inHTML: false,
@@ -147,3 +147,7 @@ export function usePopup(): IPopupContext {
   }
   return context;
 }
+
+PopupWrapper.defaultProps = {
+  children: null,
+};
