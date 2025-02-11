@@ -15,6 +15,7 @@
     "@next/font": "^13.2.3",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
+    "aos": "^3.0.0-beta.6",
     "axios": "^1.3.4",
     "i18next": "^24.2.2",
     "next": "^15.1.6",
@@ -22,9 +23,11 @@
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.52",
     "react": "^19.0.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "react-visibility-sensor": "^5.1.1"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.6",

@@ -1,3 +1,4 @@
+import AOS from 'aos';
 import React from 'react';
 import type { AppProps } from 'next/app';
 import { appWithTranslation } from 'next-i18next';
@@ -6,6 +7,7 @@ import AlertPopup from '@/components/popups/Alert.popup';
 import ConfirmPopup from '@/components/popups/Confirm.popup';
 
 // ? Global styles
+import 'aos/dist/aos.css';
 import '@/styles/globals.css';
 
 // * Local font implementation with @next/font/local - #1
@@ -25,6 +27,13 @@ import '@/styles/globals.css';
 // });
 
 function App({ Component, pageProps }: AppProps) {
+  React.useEffect(() => {
+    AOS.init({
+      once: true,
+      offset: 250,
+    });
+  }, []);
+
   return (
     <>
       {/* 
@@ -48,6 +57,7 @@ function App({ Component, pageProps }: AppProps) {
       //     `}
       //  </Script> 
       */}
+
       <PopupWrapper>
         <AlertPopup />
         <ConfirmPopup />
