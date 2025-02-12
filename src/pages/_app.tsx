@@ -31,6 +31,7 @@ function App({ Component, pageProps }: AppProps) {
     AOS.init({
       once: true,
       offset: 250,
+      delay: 200,
     });
   }, []);
 

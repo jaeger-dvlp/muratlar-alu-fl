@@ -6,6 +6,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Banner from '@/components/homepage/Banner';
 import Counts from '@/components/homepage/Counts';
+import VisionMision from '@/components/homepage/VisionMision';
 
 export default function Home(): React.ReactNode {
   return (
@@ -15,6 +16,7 @@ export default function Home(): React.ReactNode {
       <main className="flex min-h-screen flex-col items-start justify-center">
         <Banner />
         <Counts />
+        <VisionMision />
       </main>
       <Footer />
     </>

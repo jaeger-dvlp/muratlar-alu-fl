@@ -147,7 +147,7 @@ export default function Navbar(): React.ReactNode {
   return (
     <>
       <header
-        className={`${scrolledDown ? 'bg-black/30 backdrop-blur-xl' : 'bg-transaparent backdrop-blur-none'} font-theme fixed top-0 left-0 z-[50] flex w-full items-center justify-center`}
+        className={`${scrolledDown ? 'bg-black/60 backdrop-blur-xl' : 'bg-transaparent backdrop-blur-none'} font-theme fixed top-0 left-0 z-[50] flex w-full items-center justify-center`}
       >
         <section
           className={`${scrolledDown ? 'py-4' : 'py-6'} max-w-theme flex w-full flex-wrap items-center justify-between gap-5 px-5 transition-all duration-150`}
