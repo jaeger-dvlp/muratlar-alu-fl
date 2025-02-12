@@ -6,7 +6,7 @@ function Counts() {
     <section className="m-0 flex w-full items-center justify-center bg-white p-0">
       <section
         data-aos="fade-in"
-        className="max-w-theme font-theme flex w-full flex-col items-center justify-center gap-20 px-5 py-20"
+        className="max-w-theme font-theme flex w-full flex-col items-center justify-center gap-14 px-5 py-20"
       >
         <h2 className="text-center text-4xl font-medium text-zinc-900">
           Alüminyum İmalat ve Geri Dönüşüm
