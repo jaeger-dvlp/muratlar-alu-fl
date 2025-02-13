@@ -8,6 +8,7 @@ import Banner from '@/components/homepage/Banner';
 import Counts from '@/components/homepage/Counts';
 import VisionMision from '@/components/homepage/VisionMision';
 import Companies from '@/components/homepage/Companies';
+import Contact from '@/components/misc/Contact';
 
 export default function Home(): React.ReactNode {
   return (
@@ -19,6 +20,7 @@ export default function Home(): React.ReactNode {
         <Counts />
         <VisionMision />
         <Companies />
+        <Contact />
       </main>
       <Footer />
     </>
