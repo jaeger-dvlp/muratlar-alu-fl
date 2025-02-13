@@ -4,5 +4,43 @@
     "us-in-the-sector": "Us in the Sector",
     "production": "Production",
     "contact": "Contact"
+  },
+  "footer": {
+    "companies": {
+      "title": "Our Companies"
+    },
+    "contact": {
+      "address": "İsdök San. Sit. 9.Blok No:10 Başakşehir / Istanbul",
+      "title": "Contact Us",
+      "phone": "Phone",
+      "fax": "Fax",
+      "email": "E-Mail"
+    }
+  },
+  "home": {
+    "counts": {
+      "title": "Aluminum Manufacturing and Recycling",
+      "content": [
+        "Tons of annual production capacity",
+        "Tons of annually recycled waste"
+      ]
+    },
+    "vision": {
+      "title": "Vision & Mission",
+      "content": [
+        "We move forward with an approach that accurately analyzes the present of the sector, shapes its future today, focuses on making a difference, and adding value. We act in line with realistic, feasible, and measurable goals, maintaining our principles of corporate professionalism.",
+        "By adopting quality, transparency, and a participatory approach as our core values, we utilize modern knowledge and technologies most efficiently. While achieving our goals, we embrace a sustainable and effective management approach that adds value to our business partners."
+      ]
+    },
+    "companies": {
+      "title": "Our Companies"
+    }
+  },
+  "misc": {
+    "contact-sect": {
+      "title": "Let us reach you.",
+      "content": "Contact us for your inquiries and requests, and we will get back to you as soon as possible.",
+      "button": "Get in Touch"
+    }
   }
 }

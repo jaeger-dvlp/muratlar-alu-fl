@@ -1,35 +1,36 @@
 import React from 'react';
 import Link from 'next/link';
-import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { useTranslation } from 'next-i18next';
 import { NavbarLinks } from '@/components/layout/Navbar';
 import { FooterSocialLink } from '@/types/boilerplate.types';
+import { AllCompanies } from '@/components/homepage/Companies';
+import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 import Logo from '@/public/assets/img/logo-wtext.png';
 
+const FooterSocialLinks: FooterSocialLink[] = [
+  {
+    id: 0,
+    name: 'Instagram',
+    url: 'https://www.instagram.com',
+    icon: BsInstagram,
+  },
+  {
+    id: 1,
+    name: 'Linkedin',
+    url: 'https://www.linkedin.com',
+    icon: BsLinkedin,
+  },
+  {
+    id: 2,
+    name: 'Facebook',
+    url: 'https://www.facebook.com',
+    icon: BsFacebook,
+  },
+];
+
 function Footer(): React.ReactNode {
   const { t } = useTranslation();
-
-  const FooterSocialLinks: FooterSocialLink[] = [
-    {
-      id: 0,
-      name: 'Instagram',
-      url: 'https://www.instagram.com',
-      icon: BsInstagram,
-    },
-    {
-      id: 1,
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com',
-      icon: BsLinkedin,
-    },
-    {
-      id: 2,
-      name: 'Facebook',
-      url: 'https://www.facebook.com',
-      icon: BsFacebook,
-    },
-  ];
 
   const getSocialLinks = (): React.ReactNode => {
     const elements = FooterSocialLinks.map(({ id, url, icon: Icon }) => (
@@ -67,41 +68,29 @@ function Footer(): React.ReactNode {
         </ul>
         <ul className="flex h-full flex-col justify-start gap-2">
           <h3 className="my-2.5 h-[43px] self-start text-xl font-semibold text-white">
-            Markalar
+            {t('footer.companies.title')}
           </h3>
-          <li className="flex w-full items-center justify-start self-end border-b border-b-zinc-800 pb-2 text-sm">
-            <Link className="text-zinc-400 hover:text-white" href="/markalar">
-              Muratlar Alüminyum
-            </Link>
-          </li>
-          <li className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm">
-            <Link className="text-zinc-400 hover:text-white" href="/markalar">
-              Murat Geri Dönüşüm
-            </Link>
-          </li>
-          <li className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm">
-            <Link className="text-zinc-400 hover:text-white" href="/markalar">
-              Murat Lojistik
-            </Link>
-          </li>
-          <li className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm">
-            <Link className="text-zinc-400 hover:text-white" href="/markalar">
-              Mcook
-            </Link>
-          </li>
+          {AllCompanies.map(({ id, name }) => (
+            <li
+              key={`footer-company-${id}`}
+              className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm"
+            >
+              <Link className="text-zinc-400 hover:text-white" href="/markalar">
+                {name}
+              </Link>
+            </li>
+          ))}
         </ul>
         <ul className="flex h-full flex-col justify-start gap-2">
           <h3 className="my-2.5 h-[43px] self-start text-xl font-semibold text-white">
-            Bize Ulaşın
+            {t('footer.contact.title')}
           </h3>
           <li className="flex w-full items-center justify-start self-end border-b border-b-zinc-800 pb-2 text-sm">
-            <p className="text-zinc-400">
-              İsdök San. Sit. 9.Blok No:10 Başakşehir / İstanbul
-            </p>
+            <p className="text-zinc-400">{t('footer.contact.address')}</p>
           </li>
           <li className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm">
             <p>
-              <span className="text-white">Telefon: </span>
+              <span className="text-white">{t('footer.contact.phone')}: </span>
               <Link
                 className="text-zinc-400 hover:text-white"
                 href="tel:+902124863773"
@@ -112,7 +101,7 @@ function Footer(): React.ReactNode {
           </li>
           <li className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm">
             <p>
-              <span className="text-white">Fax: </span>
+              <span className="text-white">{t('footer.contact.fax')}: </span>
               <Link
                 className="text-zinc-400 hover:text-white"
                 href="tel:+902124863773"
@@ -123,7 +112,7 @@ function Footer(): React.ReactNode {
           </li>
           <li className="flex w-full items-center justify-start border-b border-b-zinc-800 pb-2 text-sm">
             <p>
-              <span className="text-white">E-Posta: </span>
+              <span className="text-white">{t('footer.contact.email')}: </span>
               <Link
                 className="text-zinc-400 hover:text-white"
                 href="mailto:info@muratgeridonusum.com"

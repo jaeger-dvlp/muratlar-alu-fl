@@ -4,5 +4,43 @@
     "us-in-the-sector": "Sektörde Biz",
     "production": "Üretim",
     "contact": "İletişim"
+  },
+  "footer": {
+    "companies": {
+      "title": "Firmalarımız"
+    },
+    "contact": {
+      "address": "İsdök San. Sit. 9.Blok No:10 Başakşehir / İstanbul",
+      "title": "Bize Ulaşın",
+      "phone": "Telefon",
+      "fax": "Faks",
+      "email": "E-Posta"
+    }
+  },
+  "home": {
+    "counts": {
+      "title": "Alüminyum İmalat ve Geri Dönüşüm",
+      "content": [
+        "Ton yıllık üretim kapasitesi",
+        "Ton yıllık geri dönüştürülen atık"
+      ]
+    },
+    "vision": {
+      "title": "Vizyon & Misyon",
+      "content": [
+        "Sektörün bugününü doğru analiz eden, yarınını bugünden şekillendiren, fark yaratmaya ve değer katmaya odaklanan bir anlayışla ilerliyoruz. Gerçekçi, uygulanabilir ve ölçülebilir hedefler doğrultusunda hareket ederek kurumsallık ve profesyonellik ilkesini sürdürüyoruz.",
+        "Kaliteyi, şeffaflığı ve katılımcı yaklaşımı temel alarak, çağdaş bilgi ve teknolojileri en verimli şekilde kullanıyoruz. Hedeflerimize ulaşırken iş ortaklarımıza değer katan, sürdürülebilir ve etkin bir yönetim anlayışı benimsiyoruz."
+      ]
+    },
+    "companies": {
+      "title": "Firmalarımız"
+    }
+  },
+  "misc": {
+    "contact-sect": {
+      "title": "Size ulaşalım.",
+      "content": "Talepleriniz ve sorularınız için bizimle iletişime geçin, size en kısa sürede dönüş yapalım.",
+      "button": "İletişime Geçin"
+    }
   }
 }

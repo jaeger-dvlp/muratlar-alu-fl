@@ -1,7 +1,9 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import { useTranslation } from 'next-i18next';
 
 function Counts() {
+  const { t } = useTranslation();
   return (
     <section className="m-0 flex w-full items-center justify-center bg-white p-0">
       <section
@@ -9,7 +11,7 @@ function Counts() {
         className="max-w-theme font-theme flex w-full flex-col items-center justify-center gap-14 px-5 py-20"
       >
         <h2 className="text-center text-4xl font-medium text-zinc-900">
-          Alüminyum İmalat ve Geri Dönüşüm
+          {t('home.counts.title')}
         </h2>
         <section className="flex w-full flex-wrap items-center justify-center gap-10 gap-y-5">
           <section className="flex flex-col items-center justify-end text-center lg:items-start lg:text-start">
@@ -27,7 +29,9 @@ function Counts() {
                 K
               </span>
             </p>
-            <p className="text-lg">Ton Yıllık Üretim Kapasitesi</p>
+            <p className="max-w-[225px] text-lg">
+              {t('home.counts.content.0')}
+            </p>
           </section>
           <section className="flex flex-col items-center justify-end text-center lg:items-start lg:text-start">
             <p className="relative text-4xl font-light text-black">
@@ -44,7 +48,9 @@ function Counts() {
                 K
               </span>
             </p>
-            <p className="text-lg">Ton Yıllık Üretim Kapasitesi</p>
+            <p className="max-w-[225px] text-lg">
+              {t('home.counts.content.1')}
+            </p>
           </section>
         </section>
       </section>

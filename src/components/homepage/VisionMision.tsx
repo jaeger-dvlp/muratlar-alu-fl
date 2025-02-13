@@ -1,8 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'next-i18next';
 
 import Abstarct1 from '@/public/assets/img/abstract-1.webp';
 
 function VisionMision() {
+  const { t } = useTranslation();
   return (
     <section
       style={{
@@ -17,19 +19,15 @@ function VisionMision() {
         data-aos="fade-in"
         className="font-theme max-w-theme z-[2] flex w-full flex-col items-start justify-center gap-14 text-start lg:items-center lg:text-center"
       >
-        <h2 className="text-4xl font-medium text-white">Vizyon & Misyon</h2>
+        <h2 className="text-4xl font-medium text-white">
+          {t('home.vision.title')}
+        </h2>
         <section className="flex flex-col items-start gap-5 text-start lg:items-center lg:text-center">
           <p className="max-w-xl text-sm text-zinc-100">
-            Sektörün bugününü iyi analiz eden, yarınını da bugünden
-            planlayabilen, fark yaratmaya ve değer katmaya inanan, gerçekçi,
-            yapılabilir, ölçülebilir hedeflerin takipçisi olan kurumsallık ve
-            profesyonellik anlayışını sürdürmektir.
+            {t('home.vision.content.0')}
           </p>
-          <p className="max-w-xl text-sm text-zinc-300">
-            Hedeflerimize ulaşma yolunda, çağdaş bilgi ve teknolojileri
-            kullanarak, kuruluşumuzda kalite anlayışını, şeffaflığı, katılımcı
-            yaklaşımı ilke edinmek ve tüm iş ortaklarımıza değer katacak şekilde
-            bir yönetim şekli sunmak.
+          <p className="max-w-xl text-sm text-zinc-100">
+            {t('home.vision.content.1')}
           </p>
         </section>
       </section>
