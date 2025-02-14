@@ -9,16 +9,16 @@ function Activities() {
       <section
         data-aos="fade-in"
         data-aos-delay="750"
-        className="max-w-theme font-theme flex w-full flex-col items-start justify-start px-5 py-20"
+        className="max-w-theme font-theme flex w-full flex-col items-start justify-start gap-14 px-5 py-20"
       >
-        <ul className="m-0 flex flex-col items-start justify-start gap-10 p-0">
-          <h3 className="text-center text-4xl font-medium text-zinc-900">
-            {t('us-in-the-sector.activities.title')}
-          </h3>
+        <h3 className="text-center text-4xl font-medium text-zinc-900">
+          {t('us-in-the-sector.activities.title')}
+        </h3>
+        <ul className="m-0 flex flex-col items-start justify-start gap-14 p-0">
           {AllCompanies.map(({ id, name, content, logo }, key) => (
             <>
               <li
-                data-aos="fade-down"
+                data-aos="fade-in"
                 data-aos-offset="100"
                 key={`act-company-${id}`}
                 className="flex w-full flex-wrap items-end justify-start gap-10 lg:flex-nowrap"
@@ -26,7 +26,7 @@ function Activities() {
                 <img
                   src={logo}
                   alt={name}
-                  className="w-full max-w-[200px] object-contain object-center"
+                  className="w-full max-w-[124px] object-contain object-center lg:max-w-[200px]"
                 />
                 <section className="flex flex-col items-start justify-center gap-0">
                   <h4 className="text-2xl font-medium text-zinc-900">{name}</h4>
