@@ -32,6 +32,7 @@ function App({ Component, pageProps }: AppProps) {
       once: true,
       offset: 250,
       delay: 200,
+      duration: 750,
     });
   }, []);
 

@@ -41,7 +41,20 @@
     }
   },
   "us-in-the-sector": {
-    "title": "Sektörde Biz"
+    "meta": {
+      "title": "Muratlar Alüminyum | Sektörde Biz",
+      "content": "Muratlar Alüminyum, yüksek kaliteli alaşımlı ve saf alüminyum külçe üretimi ve geri dönüşümü ile sektörde 30 yıllık deneyime sahiptir. Güvenilir hizmet ve sürdürülebilir üretim anlayışıyla müşteri memnuniyetini ön planda tutuyoruz."
+    },
+    "title": "Sektörde Biz",
+    "activities": {
+      "title": "Faaliyetlerimiz",
+      "companies": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nisl nec nunc ultricies luctus. Nullam nec nunc ultricies luctus. Nullam nec nunc ultricies luctus.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nisl nec nunc ultricies luctus. Nullam nec nunc ultricies luctus. Nullam nec nunc ultricies luctus.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nisl nec nunc ultricies luctus. Nullam nec nunc ultricies luctus. Nullam nec nunc ultricies luctus.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nisl nec nunc ultricies luctus. Nullam nec nunc ultricies luctus. Nullam nec nunc ultricies luctus."
+      ]
+    }
   },
   "production": {
     "title": "Üretim"

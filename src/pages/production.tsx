@@ -20,8 +20,8 @@ export default function Production(): React.ReactNode {
       <main className="flex min-h-screen flex-col items-start justify-start">
         <RouteBanner title="production.title" />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }

@@ -17,7 +17,7 @@ function RouteBanner({ title }: Props) {
         backgroundImage: `url(${Abstarct2.src})`,
         backgroundRepeat: 'no-repeat',
       }}
-      className="relative flex w-full flex-col items-center justify-center bg-cover py-20"
+      className="relative flex min-h-[45vh] w-full flex-col items-center justify-end bg-cover py-20"
     >
       <div className="absolute top-0 left-0 z-[1] h-full w-full bg-black/70 backdrop-blur" />
       <section

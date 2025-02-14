@@ -20,8 +20,8 @@ export default function ContactPage(): React.ReactNode {
       <main className="flex min-h-screen flex-col items-start justify-start">
         <RouteBanner title="contact.title" />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }

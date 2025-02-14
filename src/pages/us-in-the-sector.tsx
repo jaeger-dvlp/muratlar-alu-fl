@@ -7,6 +7,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Contact from '@/components/misc/Contact';
 import RouteBanner from '@/components/layout/RouteBanner';
+import Activities from '../components/us-in-the-sector/Activities';
 
 export default function UsInTheSector(): React.ReactNode {
   const { t } = useTranslation();
@@ -17,11 +18,12 @@ export default function UsInTheSector(): React.ReactNode {
         description={t('us-in-the-sector.meta.description')}
       />
       <Navbar />
-      <main className="flex min-h-screen flex-col items-start justify-start">
+      <main className="flex min-h-screen flex-col">
         <RouteBanner title="us-in-the-sector.title" />
+        <Activities />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }

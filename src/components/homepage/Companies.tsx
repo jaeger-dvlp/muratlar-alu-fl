@@ -8,21 +8,25 @@ export const AllCompanies = [
     id: 0,
     name: 'MURATLAR',
     logo: MockLogo.src,
+    content: 'us-in-the-sector.activities.companies.0',
   },
   {
     id: 1,
     name: 'Murat Geri Dönüşüm',
     logo: MockLogo.src,
+    content: 'us-in-the-sector.activities.companies.1',
   },
   {
     id: 2,
     name: 'MG Lojistik',
     logo: MockLogo.src,
+    content: 'us-in-the-sector.activities.companies.2',
   },
   {
     id: 3,
     name: 'Mcook',
     logo: MockLogo.src,
+    content: 'us-in-the-sector.activities.companies.3',
   },
 ];
 

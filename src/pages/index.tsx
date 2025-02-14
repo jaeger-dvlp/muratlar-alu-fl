@@ -26,8 +26,8 @@ export default function Home(): React.ReactNode {
         <VisionMision />
         <Companies />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }
