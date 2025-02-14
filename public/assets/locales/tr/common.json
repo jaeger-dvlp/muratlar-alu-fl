@@ -18,6 +18,10 @@
     }
   },
   "home": {
+    "meta": {
+      "title": "Muratlar Alüminyum | Anasayfa",
+      "content": "Muratlar Alüminyum, yüksek kaliteli alaşımlı ve saf alüminyum külçe üretimi ve geri dönüşümü ile sektörde 30 yıllık deneyime sahiptir. Güvenilir hizmet ve sürdürülebilir üretim anlayışıyla müşteri memnuniyetini ön planda tutuyoruz."
+    },
     "counts": {
       "title": "Alüminyum İmalat ve Geri Dönüşüm",
       "content": [
@@ -35,6 +39,15 @@
     "companies": {
       "title": "Firmalarımız"
     }
+  },
+  "us-in-the-sector": {
+    "title": "Sektörde Biz"
+  },
+  "production": {
+    "title": "Üretim"
+  },
+  "contact": {
+    "title": "İletişim"
   },
   "misc": {
     "contact-sect": {

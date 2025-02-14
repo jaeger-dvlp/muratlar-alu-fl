@@ -18,6 +18,10 @@
     }
   },
   "home": {
+    "meta": {
+      "title": "Muratlar Aluminum | Home",
+      "content": "Muratlar Aluminum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
+    },
     "counts": {
       "title": "Aluminum Manufacturing and Recycling",
       "content": [
@@ -35,6 +39,15 @@
     "companies": {
       "title": "Our Companies"
     }
+  },
+  "us-in-the-sector": {
+    "title": "Us in the Sector"
+  },
+  "production": {
+    "title": "Production"
+  },
+  "contact": {
+    "title": "Contact"
   },
   "misc": {
     "contact-sect": {

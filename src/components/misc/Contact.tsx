@@ -16,7 +16,10 @@ function Contact() {
       className="font-theme relative m-0 flex w-full items-center justify-center bg-gradient-to-r from-zinc-800 to-zinc-600 p-0"
     >
       <div className="absolute top-0 left-0 z-[1] h-full w-full bg-black/80 backdrop-blur" />
-      <section className="max-w-theme relative z-[2] flex w-full flex-col items-center justify-center gap-5 px-5 py-20 text-center">
+      <section
+        data-aos="fade-in"
+        className="max-w-theme relative z-[2] flex w-full flex-col items-center justify-center gap-5 px-5 py-20 text-center"
+      >
         <h3 className="text-3xl font-medium text-white">
           {t('misc.contact-sect.title')}
         </h3>
