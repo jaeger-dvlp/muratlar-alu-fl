@@ -13,7 +13,7 @@ function Contact() {
         backgroundImage: `url(${ScrapImg.src})`,
         backgroundRepeat: 'no-repeat',
       }}
-      className="font-theme relative m-0 flex w-full items-center justify-center bg-gradient-to-r from-zinc-800 to-zinc-600 p-0"
+      className="font-theme relative m-0 flex w-full items-center justify-center bg-gradient-to-r from-zinc-800 to-zinc-600 bg-cover p-0"
     >
       <div className="absolute top-0 left-0 z-[1] h-full w-full bg-black/80 backdrop-blur" />
       <section

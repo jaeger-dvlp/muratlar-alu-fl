@@ -5,8 +5,9 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-import Contact from '@/components/misc/Contact';
 import RouteBanner from '@/components/layout/RouteBanner';
+import ProductionImages from '@/components/production.tsx/ProductionImages';
+import Contact from '@/components/misc/Contact';
 
 export default function Production(): React.ReactNode {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ export default function Production(): React.ReactNode {
       <Navbar />
       <main className="flex min-h-screen flex-col items-start justify-start">
         <RouteBanner title="production.title" />
+        <ProductionImages />
         <Contact />
         <Footer />
       </main>

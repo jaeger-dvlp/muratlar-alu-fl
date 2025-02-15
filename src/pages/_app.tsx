@@ -30,7 +30,7 @@ import '@/styles/globals.css';
 function App({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
     AOS.init({
-      once: true,
+      mirror: false,
       offset: 250,
       delay: 200,
       duration: 750,

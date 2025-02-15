@@ -19,8 +19,8 @@
   },
   "home": {
     "meta": {
-      "title": "Muratlar Aluminum | Home",
-      "content": "Muratlar Aluminum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
+      "title": "Muratlar Alüminyum | Home",
+      "content": "Muratlar Alüminyum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
     },
     "counts": {
       "title": "Aluminum Manufacturing and Recycling",
@@ -43,7 +43,7 @@
   "us-in-the-sector": {
     "meta": {
       "title": "Muratlar Alüminyum | Us in the Sector",
-      "content": "Muratlar Aluminum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
+      "content": "Muratlar Alüminyum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
     },
     "title": "Us in the Sector",
     "activities": {
@@ -57,7 +57,15 @@
     }
   },
   "production": {
-    "title": "Production"
+    "meta": {
+      "title": "Muratlar Alüminyum | Production",
+      "content": "Muratlar Alüminyum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
+    },
+    "title": "Production",
+    "images": {
+      "title": "Aluminum Profile Production",
+      "content": "At Muratlar Alüminyum, we manufacture high-quality and durable aluminum profiles. Using modern technology and precision craftsmanship, we provide customized solutions tailored to our customers' needs. Our profiles, designed to meet the demands of various industries, offer high strength and long-lasting durability. Committed to quality and sustainability, we continue to be a trusted brand in the industry."
+    }
   },
   "contact": {
     "title": "Contact"

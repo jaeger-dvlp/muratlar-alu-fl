@@ -57,7 +57,15 @@
     }
   },
   "production": {
-    "title": "Üretim"
+    "meta": {
+      "title": "Muratlar Alüminyum | Üretim",
+      "content": "Muratlar Alüminyum, yüksek kaliteli alaşımlı ve saf alüminyum külçe üretimi ve geri dönüşümü ile sektörde 30 yıllık deneyime sahiptir. Güvenilir hizmet ve sürdürülebilir üretim anlayışıyla müşteri memnuniyetini ön planda tutuyoruz."
+    },
+    "title": "Üretim",
+    "images": {
+      "title": "Alüminyum Profil Üretimi",
+      "content": "Muratlar Alüminyum olarak, yüksek kaliteli ve dayanıklı alüminyum profiller üretiyoruz. Üretim sürecimizde modern teknoloji ve hassas işçilikle müşteri ihtiyaçlarına özel çözümler sunuyoruz. Farklı sektörlerin taleplerine uygun olarak şekillendirilen profillerimiz, yüksek mukavemet ve uzun ömürlü kullanım avantajı sağlar. Kalite ve sürdürülebilirlik ilkelerimiz doğrultusunda üretim yaparak sektörde güvenilir bir marka olmayı sürdürüyoruz."
+    }
   },
   "contact": {
     "title": "İletişim"
