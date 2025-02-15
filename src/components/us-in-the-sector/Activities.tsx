@@ -11,7 +11,7 @@ function Activities() {
         data-aos-delay="750"
         className="max-w-theme font-theme flex w-full flex-col items-start justify-start gap-14 px-5 py-20"
       >
-        <h3 className="text-center text-4xl font-medium text-zinc-900">
+        <h3 className="text-4xl font-medium text-zinc-900">
           {t('us-in-the-sector.activities.title')}
         </h3>
         <ul className="m-0 flex flex-col items-start justify-start gap-14 p-0">
