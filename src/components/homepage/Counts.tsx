@@ -14,7 +14,7 @@ function Counts() {
           {t('home.counts.title')}
         </h2>
         <section className="flex w-full flex-wrap items-center justify-center gap-10 gap-y-5">
-          <section className="flex flex-col items-center justify-end text-center lg:items-start lg:text-start">
+          <section className="flex flex-col items-center justify-end text-center lg:items-start lg:text-left">
             <p className="relative text-4xl font-light text-black">
               <CountUp
                 enableScrollSpy
@@ -33,7 +33,7 @@ function Counts() {
               {t('home.counts.content.0')}
             </p>
           </section>
-          <section className="flex flex-col items-center justify-end text-center lg:items-start lg:text-start">
+          <section className="flex flex-col items-center justify-end text-center lg:items-start lg:text-left">
             <p className="relative text-4xl font-light text-black">
               <CountUp
                 enableScrollSpy

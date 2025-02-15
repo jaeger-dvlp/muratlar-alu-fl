@@ -15,7 +15,7 @@ function ProductionImages() {
         data-aos-delay="750"
         className="max-w-theme font-theme flex w-full flex-col items-start justify-start gap-14 px-5 py-20"
       >
-        <section className="flex flex-col items-start justify-start gap-5 text-start">
+        <section className="flex flex-col items-start justify-start gap-5 text-left">
           <h3 className="text-center text-4xl font-medium text-zinc-900">
             {t('production.images.title')}
           </h3>

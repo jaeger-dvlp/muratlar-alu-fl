@@ -17,12 +17,12 @@ function VisionMision() {
       <div className="absolute top-0 left-0 z-[1] h-full w-full bg-black/60 backdrop-blur" />
       <section
         data-aos="fade-in"
-        className="font-theme max-w-theme z-[2] flex w-full flex-col items-start justify-center gap-14 text-start lg:items-center lg:text-center"
+        className="font-theme max-w-theme z-[2] flex w-full flex-col items-start justify-center gap-14 text-left lg:items-center lg:text-center"
       >
         <h2 className="text-4xl font-medium text-white">
           {t('home.vision.title')}
         </h2>
-        <section className="flex flex-col items-start gap-5 text-start lg:items-center lg:text-center">
+        <section className="flex flex-col items-start gap-5 text-left lg:items-center lg:text-center">
           <p className="max-w-xl text-sm text-zinc-100">
             {t('home.vision.content.0')}
           </p>
