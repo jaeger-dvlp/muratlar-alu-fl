@@ -25,9 +25,11 @@
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
     "react-i18next": "^15.4.0",
     "react-icons": "^4.7.1",
-    "react-visibility-sensor": "^5.1.1"
+    "react-visibility-sensor": "^5.1.1",
+    "resend": "^4.1.2"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.6",

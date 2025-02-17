@@ -68,7 +68,46 @@
     }
   },
   "contact": {
-    "title": "Contact"
+    "meta": {
+      "title": "Muratlar Alüminyum | Contact",
+      "content": "Muratlar Alüminyum has 30 years of experience in producing and recycling high-quality alloyed and pure aluminum ingots. With a commitment to reliable service and sustainable production, we prioritize customer satisfaction."
+    },
+    "title": "Contact",
+    "response": {
+      "sending": "Your message is being sent...",
+      "success": "Your message has been successfully sent.\nWe will get back to you as soon as possible.",
+      "error": "An error occurred while sending your message.\nPlease try again later."
+    },
+    "form": {
+      "title": "Contact Us.",
+      "content": "Get in touch with us for your requests and inquiries, and we will respond as soon as possible.",
+      "inputs": {
+        "name": "Name",
+        "surname": "Surname",
+        "email": "Email",
+        "message": "Your Message",
+        "submit": "Send",
+        "errors": {
+          "required": "This field is required.",
+          "invalid-email": "Please enter a valid email address."
+        }
+      }
+    },
+    "map-details": {
+      "address": [
+        {
+          "title": "Recycling Center"
+        },
+        {
+          "title": "Scrap Processing Center"
+        }
+      ]
+    }
+  },
+  "popups": {
+    "alert": {
+      "ok": "OK"
+    }
   },
   "misc": {
     "contact-sect": {

@@ -5,8 +5,8 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-import Contact from '@/components/misc/Contact';
 import RouteBanner from '@/components/layout/RouteBanner';
+import ContactForm from '@/components/contact/ContactForm';
 
 export default function ContactPage(): React.ReactNode {
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ export default function ContactPage(): React.ReactNode {
       <Navbar />
       <main className="flex min-h-screen flex-col items-start justify-start">
         <RouteBanner title="contact.title" />
-        <Contact />
+        <ContactForm />
         <Footer />
       </main>
     </>

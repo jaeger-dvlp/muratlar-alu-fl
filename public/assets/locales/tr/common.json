@@ -68,7 +68,46 @@
     }
   },
   "contact": {
-    "title": "İletişim"
+    "meta": {
+      "title": "Muratlar Alüminyum | İletişim",
+      "content": "Muratlar Alüminyum, yüksek kaliteli alaşımlı ve saf alüminyum külçe üretimi ve geri dönüşümü ile sektörde 30 yıllık deneyime sahiptir. Güvenilir hizmet ve sürdürülebilir üretim anlayışıyla müşteri memnuniyetini ön planda tutuyoruz."
+    },
+    "title": "İletişim",
+    "response": {
+      "sending": "Mesajınız gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi.\nEn kısa sürede dönüş yapacağız.",
+      "error": "Mesajınız gönderilirken bir hata oluştu.\nLütfen daha sonra tekrar deneyin."
+    },
+    "form": {
+      "title": "Bize Ulaşın.",
+      "content": "Talepleriniz ve sorularınız için bizimle iletişime geçin, size en kısa sürede dönüş yapalım.",
+      "inputs": {
+        "name": "İsim",
+        "surname": "Soyisim",
+        "email": "E-Posta",
+        "message": "Mesajınız",
+        "submit": "Gönder",
+        "errors": {
+          "required": "Bu alan zorunludur.",
+          "invalid-email": "Geçerli bir e-posta adresi girin."
+        }
+      }
+    },
+    "map-details": {
+      "address": [
+        {
+          "title": "Geri Dönüşüm Merkezi"
+        },
+        {
+          "title": "Hurda İşlemi Merkezi"
+        }
+      ]
+    }
+  },
+  "popups": {
+    "alert": {
+      "ok": "Tamam"
+    }
   },
   "misc": {
     "contact-sect": {

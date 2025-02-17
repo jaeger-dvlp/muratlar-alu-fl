@@ -1,8 +1,10 @@
 import React from 'react';
 import Icon from '@/components/misc/Icon';
+import { useTranslation } from 'next-i18next';
 import { usePopup } from '@/contexts/Popup.context';
 
 function AlertPopup(): React.ReactNode | null {
+  const { t } = useTranslation();
   const { alertPopup, deactivateAlertPopup } = usePopup();
 
   const containerClass = alertPopup?.isActive
@@ -18,24 +20,24 @@ function AlertPopup(): React.ReactNode | null {
       className={`${containerClass} font-theme fixed top-0 left-0 z-[9998] flex h-full w-full items-center justify-center overflow-hidden bg-black/70 p-5 transition-all delay-200 duration-300`}
     >
       <div
-        className={`${popupClass} grid max-h-fit w-full max-w-md grid-cols-1 place-content-start place-items-center gap-10 border border-zinc-500 bg-white p-5 shadow-xl transition-all duration-300`}
+        className={`${popupClass} grid max-h-fit w-full max-w-md grid-cols-1 place-content-start place-items-center gap-10 rounded-lg border border-zinc-500 bg-white p-5 shadow-xl transition-all duration-300`}
       >
         <span key={alertPopup.status} className="default-fade-in">
           <Icon iconName={alertPopup.status} />
         </span>
         <p
           key={alertPopup.text}
-          className="default-zoom-in text-center text-sm text-black"
+          className="default-zoom-in text-center text-sm whitespace-pre-wrap text-black"
         >
           {alertPopup.text}
         </p>
         <button
-          disabled={alertPopup?.status === 'loading'}
-          className="min-w-[90px] bg-black/50 px-4 py-1 text-center text-sm text-white transition-all duration-150 hover:bg-black/20 disabled:pointer-events-none disabled:opacity-50"
           type="button"
+          disabled={alertPopup?.status === 'loading'}
+          className="min-w-[90px] cursor-pointer border border-black bg-black px-4 py-1 text-center text-sm text-white transition-all duration-150 hover:bg-white hover:text-black disabled:pointer-events-none disabled:opacity-50"
           onClick={alertPopup.onConfirm || deactivateAlertPopup}
         >
-          Okay
+          {t('popups.alert.ok')}
         </button>
       </div>
     </div>
